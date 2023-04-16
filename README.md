@@ -56,7 +56,6 @@ pip install -r requirements.txt
 
 - https://huggingface.co/docs/hub/spaces-config-reference
 - https://huggingface.co/docs/hub/spaces-github-actions
-- https://git-lfs.com/
 
 ```shell
 git remote add space https://huggingface.co/spaces/pkiage/scripture-semantic-search
@@ -68,6 +67,28 @@ git push --force space main
 - Ensure integrate remote changes (git pull) before push to HF space (```git push --force space main```)
 
 ## Git LFS
+- https://github.com/git-lfs/git-lfs/wiki/Tutorial
+- https://git-lfs.com/
+
+Track files
 ```shell
- git lfs track "*.parquet" "*.pkl" "*.json"
+ git lfs track "*.parquet" "*.pkl" "*.json" "*.bin"
+ ```
+
+
+Show files tracked
+```shell
+git lfs ls-files
+```
+
+ ### Migrate existing data after commit (example: *bin)
+
+ ```shell
+ git lfs migrate import --include="*.bin" --include-ref=refs/heads/main
+
+ git push --force
+
+ git reflog expire --expire-unreachable=now --all
+
+git gc --prune=now
  ```
