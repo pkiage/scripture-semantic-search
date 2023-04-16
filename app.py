@@ -175,4 +175,4 @@ with gr.Blocks() as demo:
                           chapter_filter],
                   outputs=search_outputs)
 
-demo.launch(server_port=8080)
+demo.launch()
