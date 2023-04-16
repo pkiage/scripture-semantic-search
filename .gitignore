@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+venv
+*.json
+*data/raw
+!data/interim/bible_verses.json
+!data/interim/en_bbe.json
+__pycache__
+flagged
