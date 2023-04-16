@@ -64,7 +64,7 @@ git push --force space main
 ```
 - When [syncing with Hugging Face via Github Actions](https://huggingface.co/docs/hub/spaces-github-actions) the [User Access Token](https://huggingface.co/docs/hub/security-tokens) created on Hugging Face (HF) should have write access
 - Run space from main branch since running from [other branches currently isn't suppported](https://discuss.huggingface.co/t/is-it-possible-to-run-apps-off-of-non-main-branches-in-a-space/18086)
-- Ensure integrate remote changes (git pull) before push to HF space (```git push --force space main```)
+- Ensure integrate remote changes (```git pull```) before push to HF space (```git push --force space main```)
 
 ## Git LFS
 - https://github.com/git-lfs/git-lfs/wiki/Tutorial
@@ -81,7 +81,7 @@ Show files tracked
 git lfs ls-files
 ```
 
- ### Migrate existing data after commit (example: *bin)
+ ### Migrate existing untracked data after commit (example: *bin)
 
  ```shell
  git lfs migrate import --include="*.bin" --include-ref=refs/heads/main
