@@ -105,11 +105,11 @@ title = "Scripture Semantic Search"
 
 d1 = "**Scripture [semantic search](https://en.wikipedia.org/wiki/Semantic_search) considerations:**"
 
-d2 = "\n - Works better with high level concepts (e.g. Peace, Love, etc.), performance on names and objects could be improved"
+d2 = "\n - Works better with high level concepts (e.g. Peace, Love, etc.), whereas performance on names and objects could be improved"
 
 d3 = "\n - Uses [ChromaDB's](https://docs.trychroma.com/embeddings) [default](https://github.com/chroma-core/chroma/blob/main/chromadb/utils/embedding_functions.py) [Sentence Transformer](https://www.sbert.net/) to generate vector embeddings with 4x less dimensions (384) than [OpenAI's](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings) text-embedding-ada-002 (1536)"
 
-d4 = "\n - Embeddings are created from [Bible in Basic English (BBE)](https://en.wikipedia.org/wiki/Bible_in_Basic_English) translations with data obtained [here](https://github.com/thiagobodruk/bible/blob/master/json/en_bbe.json) (different transalations have different phrasing)"
+d4 = "\n - Embeddings are created from the [Bible in Basic English (BBE)](https://en.wikipedia.org/wiki/Bible_in_Basic_English) translation with data obtained [here](https://github.com/thiagobodruk/bible/blob/master/json/en_bbe.json) (different translations have different phrasing)"
 
 d5 = "\n \n *The information provided on this website does not, and is not intended to, constitute advice; instead, all information, content, and materials available on this site are for general informational purposes only. This tool is intended to showcase the potential of semantic search and not to replace study using other techniques and resources. The semantic search is not 100 % accurate.*"
 
