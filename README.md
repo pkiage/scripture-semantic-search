@@ -52,6 +52,9 @@ pip install -r requirements.txt
 - [thiagobodruk/bible](https://github.com/thiagobodruk/bible)
 - [seven1m/bible_api](https://github.com/seven1m/bible_api)
 
+## General Reference
+- [Books in Bible](https://www.blueletterbible.org/study/misc/66books.cfm)
+
 ## Gradio Space Setup (Hugging Face)
 
 - https://huggingface.co/docs/hub/spaces-config-reference
