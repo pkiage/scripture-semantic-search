@@ -111,7 +111,7 @@ d3 = "\n - Uses [ChromaDB's](https://docs.trychroma.com/embeddings) [default](ht
 
 d4 = "\n - Embeddings are created from the [Bible in Basic English (BBE)](https://en.wikipedia.org/wiki/Bible_in_Basic_English) translation with data obtained [here](https://github.com/thiagobodruk/bible/blob/master/json/en_bbe.json) (different translations have different phrasing)"
 
-d5 = "\n \n *The information provided on this website does not, and is not intended to, constitute advice; instead, all information, content, and materials available on this site are for general informational purposes only. This tool is intended to showcase the potential of semantic search and not to replace study using other techniques and resources. The semantic search is not 100 % accurate.*"
+d5 = "\n \n *This tool is intended to showcase the potential of semantic search and not to replace study/verification using other techniques and resources. The semantic search is not 100 % accurate.*"
 
 description = d1 + d2 + d3 + d4 + d5
 
